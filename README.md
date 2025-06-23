@@ -11,3 +11,5 @@ Reumatoïde Artritis (RA) is een chronische auto-immuunziekte die leidt tot onts
 
 - Welke metabole routes worden beïnvloed door de veranderde genexpressie bij RA-patiënten?
 
+## Methoden
+
