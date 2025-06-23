@@ -17,7 +17,7 @@ In dit onderzoek zijn biopten van het synovium (het slijmvlies van gewrichten) g
 
 **Tabel 1:** Overzicht van de onderzochte monsters, met leeftijd, geslacht en diagnose.
 
-| Sample ID   | Age | Gender | Diagnose                        |
+| Sample ID   | Leeftijd | Geslacht | Diagnose                        |
 |-------------|-----|--------|----------------------------------|
 | SRR4785819  | 31  | female | Normal ✅                       |
 | SRR4785820  | 15  | female | Normal ✅                       |
