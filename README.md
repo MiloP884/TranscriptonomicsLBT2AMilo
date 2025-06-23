@@ -13,7 +13,7 @@ Reumatoïde Artritis (RA) is een chronische auto-immuunziekte die leidt tot onts
 
 ## Methoden
 
-In dit onderzoek zijn biopten van het synovium (het slijmvlies van gewrichten) gebruikt van acht personen: vier met RA en vier zonder RA (controle groep). De mensen met RA hadden langer dan twaalf maanden de diagnose en testten positief op ACPA. De controlegroep, mensen zonder RA, testten negatief op ACPA.
+In dit onderzoek zijn biopten van het synovium (het slijmvlies van gewrichten) gebruikt van acht personen: vier met RA en vier zonder RA (controle groep). De mensen met RA hadden langer dan twaalf maanden de diagnose en testten positief op ACPA. De controlegroep, mensen zonder RA, testten negatief op ACPA. In *tabel 1* is de leeftijd, het geslacht en de diagnose van de onderzochte mensen te zien.
 
 **Tabel 1:** Overzicht van de onderzochte monsters, met leeftijd, geslacht en diagnose.
 
