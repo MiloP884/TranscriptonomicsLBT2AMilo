@@ -13,3 +13,19 @@ Reumatoïde Artritis (RA) is een chronische auto-immuunziekte die leidt tot onts
 
 ## Methoden
 
+In dit onderzoek zijn biopten van het synovium (het slijmvlies van gewrichten) gebruikt van acht personen: vier met RA en vier zonder RA (controle groep). De mensen met RA hadden langer dan twaalf maanden de diagnose en testten positief op ACPA. De controlegroep, mensen zonder RA, testten negatief op ACPA.
+
+| Sample ID   | Age | Gender | Diagnose                        |
+|-------------|-----|--------|----------------------------------|
+| SRR4785819  | 31  | female | Normal ✅                       |
+| SRR4785820  | 15  | female | Normal ✅                       |
+| SRR4785828  | 31  | female | Normal ✅                       |
+| SRR4785831  | 42  | female | Normal ✅                       |
+| SRR4785979  | 54  | female | Rheumatoid arthritis (established) ❌ |
+| SRR4785980  | 66  | female | Rheumatoid arthritis (established) ❌ |
+| SRR4785986  | 60  | female | Rheumatoid arthritis (established) ❌ |
+| SRR4785988  | 59  | female | Rheumatoid arthritis (established) ❌ |
+
+
+
+
