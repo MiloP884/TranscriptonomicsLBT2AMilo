@@ -36,6 +36,9 @@ Met behulp van de align-functie in de `Rsubread-package (versie 2.16.0)` zijn de
 <p align="center">
   <img src="Afbeeldingen/Goanalyse_R.png" alt="Go-analyse" width="400"/>
   <br>
-  
+  <em>Figuur 1: Gene Ontology (GO)-analyse van differentieel tot expressie gebrachte genen toont  processen gerelateerd aan het immuunsysteem, waaronder "positive regulation of immune system process", "lymphocyte activation" en "adaptive immune response". De kleurintensiteit geeft het percentage gen-hits binnen elk proces weer.</em>
+</p>
+
+
 
 
