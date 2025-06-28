@@ -40,5 +40,9 @@ Met behulp van de align-functie in de `Rsubread-package (versie 2.16.0)` zijn de
 </p>
 
 
+<p align="center">
+  <img src="Afbeeldingen/VolcanoplotWC.png" alt="Volcano plot W vs C" width="600"/>
+</p>
+
 
 
