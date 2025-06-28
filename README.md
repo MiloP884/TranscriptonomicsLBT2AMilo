@@ -41,8 +41,15 @@ Met behulp van de align-functie in de `Rsubread-package (versie 2.16.0)` zijn de
 
 
 <p align="center">
-  <img src="Afbeeldingen/VolcanoplotWC.png" alt="Volcano plot W vs C" width="600"/>
+  <img src="Afbeeldingen/VolcanoplotWC.png" alt="Volcano plot" width="600"/>
+ <br>
+  <em>Figuur 2: Volcano plot van differentieel tot expressie gebrachte genen. De X-as toont de log₂-fold change, en de Y-as de –log₁₀(p-waarde). Rode punten vertegenwoordigen genen die zowel significant zijn in p-waarde als in expressieniveau (log₂ FC), groene punten zijn alleen significant in expressie, en grijze punten zijn niet significant. In totaal zijn 29.407 genen geanalyseerd.</em>
 </p>
 
+<p align="center">
+  <img src="Afbeeldingen/hsa04660.pathview.png" alt="KEGG pathway van hsa04660" width="600"/>
+ <br>
+  <em>Figuur 3: Visualisatie van de T cel receptor (TCR) signaaltransductieroute met differentieel tot expressie gebrachte genen geprojecteerd op het KEGG-pathway hsa04660.</em>
+</p>
 
 
