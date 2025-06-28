@@ -31,4 +31,11 @@ In dit onderzoek zijn biopten van het synovium (het slijmvlies van gewrichten) g
 Met behulp van de align-functie in de `Rsubread-package (versie 2.16.0)` zijn de ruwe sequencingdata uitgelijnd op het humane referentiegenoom (GRCh38). Na het sorteren en indexeren van de BAM-bestanden met `Rsamtools (versie 2.20.0)`, zijn de reads geteld met de functie featureCounts. De differentiële genexpressieanalyse werd uitgevoerd met `DESeq2 (versie 1.42.0)`. Om te kijken welke biologische processen betrokken zijn bij de veranderde genen is een GO-analyse gedaan met behulp van `goseq (versie 1.54.0)`. Deze analyse laat zien welke processen vaker voorkomen bij genen met veranderde expressie. Vervolgens is er een KEGG-pathwayanalyse gedaan met pathview `(versie 1.42.0)`.
 
 
+## Resultaten
+
+<p align="center">
+  <img src="Afbeeldingen/Goanalyse_R.png" alt="Go-analyse" width="400"/>
+  <br>
+  
+
 
