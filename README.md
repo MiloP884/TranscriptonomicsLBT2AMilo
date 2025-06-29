@@ -34,16 +34,16 @@ Met behulp van de align-functie in de `Rsubread-package (versie 2.16.0)` zijn de
 ## Resultaten
 
 <p align="center">
-  <img src="Afbeeldingen/Image 28-06-2025 at 19.37.jpeg" alt="Go-analyse" width="600"/>
+  <img src="Afbeeldingen/VolcanoplotWC.png" alt="Volcano plot" width="600"/>
   <br>
-  <em>Figuur 1: Gene Ontology (GO)-analyse van differentieel tot expressie gebrachte genen toont  processen gerelateerd aan het immuunsysteem, waaronder "positive regulation of immune system process", "lymphocyte activation" en "adaptive immune response". De kleurintensiteit geeft het percentage gen-hits binnen elk proces weer.</em>
+  <em>Figuur 1: Volcano plot van differentieel tot expressie gebrachte genen. De X-as toont de log₂-fold change, en de Y-as de –log₁₀(p-waarde). Rode punten vertegenwoordigen genen die zowel significant zijn in p-waarde als in expressieniveau (log₂ FC), groene punten zijn alleen significant in expressie, en grijze punten zijn niet significant. In totaal zijn 29.407 genen geanalyseerd.</em>
 </p>
 
 
 <p align="center">
-  <img src="Afbeeldingen/VolcanoplotWC.png" alt="Volcano plot" width="600"/>
+  <img src="Afbeeldingen/Image 28-06-2025 at 19.37.jpeg" alt="GO-analyse" width="600"/>
  <br>
-  <em>Figuur 2: Volcano plot van differentieel tot expressie gebrachte genen. De X-as toont de log₂-fold change, en de Y-as de –log₁₀(p-waarde). Rode punten vertegenwoordigen genen die zowel significant zijn in p-waarde als in expressieniveau (log₂ FC), groene punten zijn alleen significant in expressie, en grijze punten zijn niet significant. In totaal zijn 29.407 genen geanalyseerd.</em>
+  <em>Figuur 2: Gene Ontology (GO)-analyse van differentieel tot expressie gebrachte genen toont  processen gerelateerd aan het immuunsysteem, waaronder "positive regulation of immune system process", "lymphocyte activation" en "adaptive immune response". De kleurintensiteit geeft het percentage gen-hits binnen elk proces weer.</em>
 </p>
 
 <p align="center">
