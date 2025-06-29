@@ -30,8 +30,12 @@ In dit onderzoek zijn biopten van het synovium (het slijmvlies van gewrichten) g
 
 Met behulp van de align-functie in de `Rsubread-package (versie 2.16.0)`(Liao et al., 2019) zijn de ruwe sequencingdata uitgelijnd op het humane referentiegenoom (GRCh38). Na het sorteren en indexeren van de BAM-bestanden met `Rsamtools (versie 2.20.0)`(Morgan et al., 2025), zijn de reads geteld met de functie featureCounts. De differentiële genexpressieanalyse werd uitgevoerd met `DESeq2 (versie 1.42.0)` (Love et al., 2014). Om te kijken welke biologische processen betrokken zijn bij de veranderde genen is een GO-analyse gedaan met behulp van `goseq (versie 1.54.0)`(Young et al., 2010). Deze analyse laat zien welke processen vaker voorkomen bij genen met veranderde expressie. Vervolgens is er een KEGG-pathwayanalyse gedaan met `pathview (versie 1.42.0)`(Luo & Brouwer, 2013).
 
-![Flowchart voor RNA-seq data-analyse bij RA.](Afbeeldingen/FlowchartTranscriptomics.png)
 
+<p align="center">
+  <img src="Afbeeldingen/FlowchartTranscriptomics.png" alt="Flowchart" width="600"/>
+  <br>
+  <em>Figuur 1: Flowchart voor het uitvoeren de RNA-seq data-analyse.</em>
+</p>
 
 ## Resultaten
 
