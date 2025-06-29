@@ -29,30 +29,35 @@ In dit onderzoek zijn biopten van het synovium (het slijmvlies van gewrichten) g
 | SRR4785988  | 59  | female | Rheumatoid arthritis ❌ |
 
 Met behulp van de align-functie in de `Rsubread-package (versie 2.16.0)`(Liao et al., 2019) zijn de ruwe sequencingdata uitgelijnd op het humane referentiegenoom (GRCh38). Na het sorteren en indexeren van de BAM-bestanden met `Rsamtools (versie 2.20.0)`(Morgan et al., 2025), zijn de reads geteld met de functie featureCounts. De differentiële genexpressieanalyse werd uitgevoerd met `DESeq2 (versie 1.42.0)` (Love et al., 2014). Om te kijken welke biologische processen betrokken zijn bij de veranderde genen is een GO-analyse gedaan met behulp van `goseq (versie 1.54.0)`(Young et al., 2010). Deze analyse laat zien welke processen vaker voorkomen bij genen met veranderde expressie. Vervolgens is er een KEGG-pathwayanalyse gedaan met `pathview (versie 1.42.0)`(Luo & Brouwer, 2013).
+<p align="center">
+  <img src="Afbeeldingen/" alt="Flowchart" width="600"/>
+  <br>
+  <em>Figuur 1: flowchart van de stappen die nodig zijn voor het uitvoeren van de RNA-seq data-analyse. </em>
+</p>
 
 
 ## Resultaten
 
 ### Volcanoplot: verschillen in genexpressie wijzen op immuunactivatie 
 
-De resultaten van de differentiële genexpressieanalyse tussen RA-patiënten en controles zijn weergegeven in _figuur 1_. In dit figuur wirden de genen gevisualiseerd op basis van hun log2-fold change (x-as) en de negatieve log10-transformatie van de p-waarde (y-as). Elk punt vertegenwoordigt één gen (n = 29.407 genen in totaal).
+De resultaten van de differentiële genexpressieanalyse tussen RA-patiënten en controles zijn weergegeven in _figuur 2_. In dit figuur wirden de genen gevisualiseerd op basis van hun log2-fold change (x-as) en de negatieve log10-transformatie van de p-waarde (y-as). Elk punt vertegenwoordigt één gen (n = 29.407 genen in totaal).
 
 <p align="center">
   <img src="Afbeeldingen/VolcanoplotWC.png" alt="Volcano plot" width="600"/>
   <br>
-  <em>Figuur 1: Volcano plot van differentieel tot expressie gebrachte genen. De X-as toont de log₂-fold change, en de Y-as de –log₁₀(p-waarde). Rode punten vertegenwoordigen genen die zowel significant zijn in p-waarde als in expressieniveau (log₂ FC), groene punten zijn alleen significant in expressie, en grijze punten zijn niet significant. In totaal zijn 29.407 genen geanalyseerd.</em>
+  <em>Figuur 2: Volcano plot van differentieel tot expressie gebrachte genen. De X-as toont de log₂-fold change, en de Y-as de –log₁₀(p-waarde). Rode punten vertegenwoordigen genen die zowel significant zijn in p-waarde als in expressieniveau (log₂ FC), groene punten zijn alleen significant in expressie, en grijze punten zijn niet significant. In totaal zijn 29.407 genen geanalyseerd.</em>
 </p>
 
 Uit de analyse blijkt dat een aantal genen sterk gedifferentieerd tot expressie komen. Genen zoals **SRGN, IGHV1-69 en BCL2A1** laten een verhoogde expressie zien. Deze resultaten geven een indruk van welke genen een rol kunnen spelen bij RA.
 
 ### GO-analyse verhoogde activieit van immuunrespons bij RA
 
-De GO-analyse in _figuur 2_ laat zien dat de genen die differentieel tot expressie werden gebracht vooral betrokken zijn bij immuunprocessen zoals lymfocytenactivatie, leukocytenactivatie en immuunrespons. Deze termen geven een verhoogde activatie en regulatie van immuuncellen, zoals T-cellen aan. Dit laat zien dat het immuunsysteem actiever is bij RA, het kan zinvol zijn om te kijken naar belangrijke signaalroutes zoals die van de T-celreceptor (hsa04660).
+De GO-analyse in _figuur 3_ laat zien dat de genen die differentieel tot expressie werden gebracht vooral betrokken zijn bij immuunprocessen zoals lymfocytenactivatie, leukocytenactivatie en immuunrespons. Deze termen geven een verhoogde activatie en regulatie van immuuncellen, zoals T-cellen aan. Dit laat zien dat het immuunsysteem actiever is bij RA, het kan zinvol zijn om te kijken naar belangrijke signaalroutes zoals die van de T-celreceptor (hsa04660).
 
 <p align="center">
   <img src="Afbeeldingen/Image 28-06-2025 at 19.37.jpeg" alt="GO-analyse" width="600"/>
  <br>
-  <em>Figuur 2: Gene Ontology (GO)-analyse van differentieel tot expressie gebrachte genen toont  processen gerelateerd aan het immuunsysteem, waaronder "positive regulation of immune system process", "lymphocyte activation" en "adaptive immune response". De kleurintensiteit geeft het percentage gen-hits binnen elk proces weer.</em>
+  <em>Figuur 3: Gene Ontology (GO)-analyse van differentieel tot expressie gebrachte genen toont  processen gerelateerd aan het immuunsysteem, waaronder "positive regulation of immune system process", "lymphocyte activation" en "adaptive immune response". De kleurintensiteit geeft het percentage gen-hits binnen elk proces weer.</em>
 </p>
 
 ### KEGG-pathway: verstoorde T-cel signalering als mogelijke kern van RA
@@ -61,7 +66,7 @@ De KEGG-analyse van de T-cell receptor signalling pathway (has04660) laat zien d
 <p align="center">
   <img src="Afbeeldingen/hsa04660.pathview.png" alt="KEGG pathway van hsa04660" width="600"/>
  <br>
-  <em>Figuur 3: Visualisatie van de T cel receptor (TCR) signaaltransductieroute met differentieel tot expressie gebrachte genen geprojecteerd op het KEGG-pathway hsa04660.</em>
+  <em>Figuur 4: Visualisatie van de T cel receptor (TCR) signaaltransductieroute met differentieel tot expressie gebrachte genen geprojecteerd op het KEGG-pathway hsa04660.</em>
 </p>
 
 ## Conclusie 
