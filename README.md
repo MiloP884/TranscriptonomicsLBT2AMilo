@@ -41,7 +41,7 @@ De resultaten van de differentiële genexpressieanalyse tussen RA-patiënten en 
   <em>Figuur 1: Volcano plot van differentieel tot expressie gebrachte genen. De X-as toont de log₂-fold change, en de Y-as de –log₁₀(p-waarde). Rode punten vertegenwoordigen genen die zowel significant zijn in p-waarde als in expressieniveau (log₂ FC), groene punten zijn alleen significant in expressie, en grijze punten zijn niet significant. In totaal zijn 29.407 genen geanalyseerd.</em>
 </p>
 
-Uit de analyse blijkt dat een aantal genen sterk gedifferentieerd tot expressie komen. Genen zoals **SRGN, IGHV1-69 en BCL2A1** laten een verhoogde expressie zien. Deze genen zouden mogelijk een rol kunnen spelen bij RA.
+Uit de analyse blijkt dat een aantal genen sterk gedifferentieerd tot expressie komen. Genen zoals **SRGN, IGHV1-69 en BCL2A1** laten een verhoogde expressie zien. Deze resultaten geven een indruk van welke genen een rol kunnen spelen bij RA.
 
 <p align="center">
   <img src="Afbeeldingen/Image 28-06-2025 at 19.37.jpeg" alt="GO-analyse" width="600"/>
@@ -49,7 +49,7 @@ Uit de analyse blijkt dat een aantal genen sterk gedifferentieerd tot expressie 
   <em>Figuur 2: Gene Ontology (GO)-analyse van differentieel tot expressie gebrachte genen toont  processen gerelateerd aan het immuunsysteem, waaronder "positive regulation of immune system process", "lymphocyte activation" en "adaptive immune response". De kleurintensiteit geeft het percentage gen-hits binnen elk proces weer.</em>
 </p>
 
-De GO-analyse _figuur 2_ laat zien dat de genen die differentieel tot expressie werden gebracht vooral betrokken zijn bij immuunprocessen zoals lymfocytenactivatie, leukocytenactivatie en immuunrespons. Dit duidt op een verhoogde activatie van immuuncellen bij RA-patiënten de rol van immuunregulatie bij de ziekte. 
+De GO-analyse in _figuur 2_ laat zien dat de genen die differentieel tot expressie werden gebracht vooral betrokken zijn bij immuunprocessen zoals lymfocytenactivatie, leukocytenactivatie en immuunrespons. Deze termen geven een verhoogde activatie en regulatie van immuuncellen, zoals T-cellen aan. Dit laat zien dat het immuunsysteem actiever is bij RA, het kan zinvol zijn om te kijken naar belangrijke signaalroutes zoals die van de T-celreceptor (hsa04660).
 
 <p align="center">
   <img src="Afbeeldingen/hsa04660.pathview.png" alt="KEGG pathway van hsa04660" width="600"/>
