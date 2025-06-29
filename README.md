@@ -33,7 +33,9 @@ Met behulp van de align-functie in de `Rsubread-package (versie 2.16.0)` zijn de
 
 ## Resultaten
 
-De resultaten van de differentiële genexpressieanalyse tussen RA-patiënten en controles zijn weergegeven in _figuur 1_. In dit figuur wirden de genen gevisualiseerd op basis van hun log<sub>2</sub>-fold change (x-as) en de negatieve log<sub>10</sub>-transformatie van de p-waarde (y-as). Elk punt vertegenwoordigt één gen (n = 29.407 genen in totaal).
+### Volcanoplot: verschillen in genexpressie wijzen op immuunactivatie 
+
+De resultaten van de differentiële genexpressieanalyse tussen RA-patiënten en controles zijn weergegeven in _figuur 1_. In dit figuur wirden de genen gevisualiseerd op basis van hun log2-fold change (x-as) en de negatieve log10-transformatie van de p-waarde (y-as). Elk punt vertegenwoordigt één gen (n = 29.407 genen in totaal).
 
 <p align="center">
   <img src="Afbeeldingen/VolcanoplotWC.png" alt="Volcano plot" width="600"/>
@@ -43,13 +45,17 @@ De resultaten van de differentiële genexpressieanalyse tussen RA-patiënten en 
 
 Uit de analyse blijkt dat een aantal genen sterk gedifferentieerd tot expressie komen. Genen zoals **SRGN, IGHV1-69 en BCL2A1** laten een verhoogde expressie zien. Deze resultaten geven een indruk van welke genen een rol kunnen spelen bij RA.
 
+### GO-analyse verhoogde activieit van immuunrespons bij RA
+
+De GO-analyse in _figuur 2_ laat zien dat de genen die differentieel tot expressie werden gebracht vooral betrokken zijn bij immuunprocessen zoals lymfocytenactivatie, leukocytenactivatie en immuunrespons. Deze termen geven een verhoogde activatie en regulatie van immuuncellen, zoals T-cellen aan. Dit laat zien dat het immuunsysteem actiever is bij RA, het kan zinvol zijn om te kijken naar belangrijke signaalroutes zoals die van de T-celreceptor (hsa04660).
+
 <p align="center">
   <img src="Afbeeldingen/Image 28-06-2025 at 19.37.jpeg" alt="GO-analyse" width="600"/>
  <br>
   <em>Figuur 2: Gene Ontology (GO)-analyse van differentieel tot expressie gebrachte genen toont  processen gerelateerd aan het immuunsysteem, waaronder "positive regulation of immune system process", "lymphocyte activation" en "adaptive immune response". De kleurintensiteit geeft het percentage gen-hits binnen elk proces weer.</em>
 </p>
 
-De GO-analyse in _figuur 2_ laat zien dat de genen die differentieel tot expressie werden gebracht vooral betrokken zijn bij immuunprocessen zoals lymfocytenactivatie, leukocytenactivatie en immuunrespons. Deze termen geven een verhoogde activatie en regulatie van immuuncellen, zoals T-cellen aan. Dit laat zien dat het immuunsysteem actiever is bij RA, het kan zinvol zijn om te kijken naar belangrijke signaalroutes zoals die van de T-celreceptor (hsa04660).
+### KEGG-pathway: verstoorde T-cel signalering als mogelijke kern van RA
 
 De KEGG-analyse van de T-cell receptor signalling pathway (has04660) laat zien dat meerdere genen, zoals CD3E, CD28 en ZAP70, verhoogd tot expressie komen bij RA. Deze verstoorde signaalroute kan duiden op veranderingen in hoe genen aan- of uitgezet worden en hoe afweercellen reageren. Dit ondersteunt het idee dat het immuunsysteem bij mensen met RA anders werkt dat bij gezonde mensen, net als de bijbehorende metabole routes.
 <p align="center">
@@ -58,4 +64,7 @@ De KEGG-analyse van de T-cell receptor signalling pathway (has04660) laat zien d
   <em>Figuur 3: Visualisatie van de T cel receptor (TCR) signaaltransductieroute met differentieel tot expressie gebrachte genen geprojecteerd op het KEGG-pathway hsa04660.</em>
 </p>
 
+## Conclusie 
 
+Uit dit onderzoek blijkt dat de genexpressie van mensen met RA duidelijk verschilt van mensen zonder RA. In de volcanoplot kwamen meerdere genen naar voren die meer of minder werden gereguleerd. De GO-analyse bevestigde dit beeld: veel processen die met lymfocytactivatie te maken hebben veranderen. Dit wijst erop dat het afweersysteem bij mensen met RA ontregeld is. De KEGG-analyse liet zien dat in de T cell receptor signaling pathway zowel activerende genen _(zoals CD28 en ZAP70)_ als regulerende genen _(zoals NFAT en AP1)_ afwijkende expressie lieten zien. Dit kan betekenen dat signaaloverdracht bij T-cellen bij RA verstoord is.
+Toekomstig onderzoek zou kunnen kijken naar specifieke schakels in deze pathways om te bepalen welke het meest geschikt zijn voor mogelijk therapie. Het kan ook interessant zijn om te kijken of er deze genexpressieveranderingen ook te vinden zijn in andere auto-immuunziekten.
