@@ -51,6 +51,7 @@ Uit de analyse blijkt dat een aantal genen sterk gedifferentieerd tot expressie 
 
 De GO-analyse in _figuur 2_ laat zien dat de genen die differentieel tot expressie werden gebracht vooral betrokken zijn bij immuunprocessen zoals lymfocytenactivatie, leukocytenactivatie en immuunrespons. Deze termen geven een verhoogde activatie en regulatie van immuuncellen, zoals T-cellen aan. Dit laat zien dat het immuunsysteem actiever is bij RA, het kan zinvol zijn om te kijken naar belangrijke signaalroutes zoals die van de T-celreceptor (hsa04660).
 
+De KEGG-analyse van de T-cell receptor signalling pathway (has04660) laat zien dat meerdere genen, zoals CD3E, CD28 en ZAP70, verhoogd tot expressie komen bij RA. Deze verstoorde signaalroute kan duiden op veranderingen in hoe genen aan- of uitgezet worden en hoe afweercellen reageren. Dit ondersteunt het idee dat het immuunsysteem bij mensen met RA anders werkt dat bij gezonde mensen, net als de bijbehorende metabole routes.
 <p align="center">
   <img src="Afbeeldingen/hsa04660.pathview.png" alt="KEGG pathway van hsa04660" width="600"/>
  <br>
