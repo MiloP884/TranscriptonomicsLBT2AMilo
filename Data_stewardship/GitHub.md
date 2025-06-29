@@ -1,3 +1,3 @@
 ### Gebruik van GitHub
 
-Tijdens deze casus heb ik GitHub ingezet als platform om mijn data-analyse en bijbehorende scripts te beheren.
+Tijdens deze casus heb ik GitHub ingezet als platform om mijn data-analyse en bijbehorende scripts te beheren. Mijn repository is overzichtelijk ingericht met de volgende mappen: Afbeeldingen, bronnen, data, script, data_stewardship en een READme.md files met daarin de werkwijze en resultaten van deze opdracht. Het gebruik van GitHub heeft mij inzicht gegeven in het belang van gestructureerd werken en duidelijke documentatie. Door goed bij te houden wat je doet, blijft het proces niet alleen overzichtelijk voor jezelf, maar kunnen anderen het ook eenvoudig reproduceren.
