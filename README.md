@@ -33,18 +33,23 @@ Met behulp van de align-functie in de `Rsubread-package (versie 2.16.0)` zijn de
 
 ## Resultaten
 
+De resultaten van de differentiële genexpressieanalyse tussen RA-patiënten en controles zijn weergegeven in _figuur 1_. In dit figuur wirden de genen gevisualiseerd op basis van hun log<sub>2</sub>-fold change (x-as) en de negatieve log<sub>10</sub>-transformatie van de p-waarde (y-as). Elk punt vertegenwoordigt één gen (n = 29.407 genen in totaal).
+
 <p align="center">
   <img src="Afbeeldingen/VolcanoplotWC.png" alt="Volcano plot" width="600"/>
   <br>
   <em>Figuur 1: Volcano plot van differentieel tot expressie gebrachte genen. De X-as toont de log₂-fold change, en de Y-as de –log₁₀(p-waarde). Rode punten vertegenwoordigen genen die zowel significant zijn in p-waarde als in expressieniveau (log₂ FC), groene punten zijn alleen significant in expressie, en grijze punten zijn niet significant. In totaal zijn 29.407 genen geanalyseerd.</em>
 </p>
 
+Uit de analyse blijkt dat een aantal genen sterk gedifferentieerd tot expressie komen. Genen zoals **SRGN, IGHV1-69 en BCL2A1** laten een verhoogde expressie zien. Deze genen zouden mogelijk een rol kunnen spelen bij RA.
 
 <p align="center">
   <img src="Afbeeldingen/Image 28-06-2025 at 19.37.jpeg" alt="GO-analyse" width="600"/>
  <br>
   <em>Figuur 2: Gene Ontology (GO)-analyse van differentieel tot expressie gebrachte genen toont  processen gerelateerd aan het immuunsysteem, waaronder "positive regulation of immune system process", "lymphocyte activation" en "adaptive immune response". De kleurintensiteit geeft het percentage gen-hits binnen elk proces weer.</em>
 </p>
+
+De GO-analyse _figuur 2_ laat zien dat de genen die differentieel tot expressie werden gebracht vooral betrokken zijn bij immuunprocessen zoals lymfocytenactivatie, leukocytenactivatie en immuunrespons. Dit duidt op een verhoogde activatie van immuuncellen bij RA-patiënten de rol van immuunregulatie bij de ziekte. 
 
 <p align="center">
   <img src="Afbeeldingen/hsa04660.pathview.png" alt="KEGG pathway van hsa04660" width="600"/>
