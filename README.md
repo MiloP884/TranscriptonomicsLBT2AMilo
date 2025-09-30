@@ -1,5 +1,3 @@
-# TranscriptonomicsLBT2AMilo
-
 # Immuunactivatie en signaalverstoring bij reuma zichtbaar in genexpressie en pathway-analyse
 
 ## Inleiding
